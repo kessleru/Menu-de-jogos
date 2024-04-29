@@ -66,7 +66,7 @@ class MenuJogos(tk.Tk):
         pygame.mixer.init()
 
         diretorio_principal = os.path.dirname(__file__)
-        diretorio_imagens = os.path.join(diretorio_principal, 'imagens')
+        diretorio_imagens = os.path.join(diretorio_principal, 'imagens_dino')
 
 
         # ao iniciar ações, para-las
