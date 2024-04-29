@@ -306,15 +306,15 @@ class MenuJogos(tk.Tk):
             def __init__(self):
                 pygame.sprite.Sprite.__init__(self)
 
-                self.images = [pygame.image.load('bluebird-upflap.png').convert_alpha(),
-                            pygame.image.load('bluebird-midflap.png').convert_alpha(),
-                            pygame.image.load('bluebird-downflap.png').convert_alpha()]
+                self.images = [pygame.image.load('imagens_flappy/bluebird-upflap.png').convert_alpha(),
+                            pygame.image.load('imagens_flappy/bluebird-midflap.png').convert_alpha(),
+                            pygame.image.load('imagens_flappy/bluebird-downflap.png').convert_alpha()]
 
                 self.speed = SPEED
 
                 self.current_image = 0
 
-                self.image = pygame.image.load('bluebird-upflap.png').convert_alpha()
+                self.image = pygame.image.load('imagens_flappy/bluebird-upflap.png').convert_alpha()
                 self.mask = pygame.mask.from_surface(self.image)
 
                 self.rect = self.image.get_rect()
@@ -338,7 +338,7 @@ class MenuJogos(tk.Tk):
             def __init__(self, inverted, xpos, ysize):
                 pygame.sprite.Sprite.__init__(self)
 
-                self.image = pygame.image.load('pipe-red.png').convert_alpha()
+                self.image = pygame.image.load('imagens_flappy/pipe-red.png').convert_alpha()
                 self.image = pygame.transform.scale(self.image, (PIPE_WIDTH,PIPE_HEIGHT))
 
                 self.rect = self.image.get_rect()
@@ -360,7 +360,7 @@ class MenuJogos(tk.Tk):
             def __init__(self, xpos):
                 pygame.sprite.Sprite.__init__(self)
 
-                self.image = pygame.image.load('base.png').convert_alpha()
+                self.image = pygame.image.load('imagens_flappy/base.png').convert_alpha()
                 self.image = pygame.transform.scale(self.image, (GROUND_WIDTH, GROUND_HEIGHT))
 
                 self.mask = pygame.mask.from_surface(self.image)
@@ -388,7 +388,7 @@ class MenuJogos(tk.Tk):
         start_time = pygame.time.get_ticks()
 
 
-        BACKGROUND = pygame.image.load('background-day.png')
+        BACKGROUND = pygame.image.load('imagens_flappy/background-day.png')
         BACKGROUND = pygame.transform.scale(BACKGROUND, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
         bird_group = pygame.sprite.Group()
