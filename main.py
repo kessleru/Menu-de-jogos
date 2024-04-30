@@ -36,7 +36,6 @@ PIPE_HEIGHT = 500
 
 PIPE_GAP = 200
 
-
 #Menu de jogos
 class MenuJogos(tk.Tk):
     def __init__(self):
@@ -58,6 +57,12 @@ class MenuJogos(tk.Tk):
 
         self.btn_dino = tk.Button(self, text="Jogo do Dino", command=self.jogar_dino)
         self.btn_dino.pack()
+
+        self.btn_sair = tk.Button(self, text="Sair", command=self.fechar_janela)
+        self.btn_sair.place(x=20, y=360)
+
+    def fechar_janela(self):
+        self.destroy()
 
 
     def jogar_dino(self):
