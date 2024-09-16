@@ -1,4 +1,5 @@
-# Projeto-Jogos
+# Menu de jogos
+
 Alunos: Amanda Lima Gobe, Otávio Kessler Ustra, Pedro Antonio Anastacio Borges e Sara Moura Menezes.
 1° Período CC
 
