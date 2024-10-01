@@ -18,7 +18,7 @@ Este projeto tem como objetivo desenvolver uma plataforma de jogos interativa, n
 - **Jogo da Cobrinha**  
 - **Jogo do Dinossauro**  
 
-A plataforma foi criada utilizando a biblioteca **Pygame** para o desenvolvimento dos jogos e a biblioteca **Tkinter** para a construção da interface do menu, proporcionando uma experiência gráfica simples e agradável para os usuários.  
+A plataforma foi criada utilizando a biblioteca **Pygame** para o desenvolvimento dos jogos e a biblioteca **Tkinter** para a construção da interface do menu, proporcionando uma experiência gráfica simples para os usuários.  
 
 ## Tecnologias Utilizadas  
 
