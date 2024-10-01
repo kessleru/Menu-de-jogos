@@ -40,7 +40,9 @@ Obs: Devido a problemas os bugs do projeto não foram corrigidos, no entando os 
 
 ## Como Executar  
 
-Para executar a plataforma, certifique-se de ter o Python instalado. Você pode instalar as bibliotecas necessárias utilizando o seguinte comando:  
+Para executar a plataforma, certifique-se de ter o Python instalado. E você deve instalar as bibliotecas necessárias utilizando o seguinte comando:  
 
 ```bash  
 pip install pygame tk
+```
+Inicie o programa pelo arquivo main.py.
